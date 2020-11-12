@@ -1,0 +1,4 @@
+
+while True:
+    for x in input (" введіть слово = "):
+         print(x * 2,end = '')
