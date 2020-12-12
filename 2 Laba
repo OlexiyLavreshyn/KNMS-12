@@ -1,4 +1,4 @@
-a = ('Olexiy', 'Vitaliy', 'Bogdan', 'Oleg')
+a = str(input('Введіть текст: '))
 c = input('Введіть цифру від 1 до 2: ')
 if c == ('2'):
     d = {}
@@ -6,6 +6,5 @@ if c == ('2'):
         d[x] = a.count(x)
     print(d)
 if c == ('1'):
-    a = sorted(a)
+    a = sorted(a.split())
     print(a)
-#Ще не дивіться я зрозумів що це не правильно
